@@ -31,3 +31,19 @@ It injects a **unique identifier** (like `ccorgi`) into text prompts, so the mod
 - CLIP Tokenizer, OpenCV, torchvision
 
 ---
+
+## 📊 Results
+
+- **Model:** Stable Diffusion v1.4  
+- **Training Time:** ~400 steps, 1 GPU (adjustable)  
+- **Output:** High-quality custom images faithful to the prompt  
+- **Optimizations:** Gradient checkpointing, 8-bit Adam, Accelerate for distributed training  
+
+---
+
+## 📚 References
+
+- [DreamBooth Paper](https://dreambooth.github.io/)
+- [Hugging Face Diffusers](https://github.com/huggingface/diffusers)
+- [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
+- [bitsandbytes](https://github.com/TimDettmers/bitsandbytes)
